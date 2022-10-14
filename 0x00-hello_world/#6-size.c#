@@ -1,0 +1,20 @@
+#include <stdio.h>
+/**
+ * main - print the string at the puts function
+ * Description: using the main function
+ * this program prints "programming is like building a multiligual puzzle
+ * Return: 0
+ */
+int main(void)
+{
+  int typeofinteger;
+  long int longinteger;
+  char character;
+  float floatingtype;
+  long long int loninteger;
+printf("Size of char %lu\n", sizeof(char));
+printf("Size of an int: %ld byte(s)\n", sizeof(int));
+printf("Size of an int: %ld byte(s)\n", sizeof(long int));
+printf("Size of an int: %ld byte(s)\n", sizeof(int));
+ return (0);
+}
