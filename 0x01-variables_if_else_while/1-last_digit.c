@@ -19,7 +19,7 @@ r = n % 10;
 
 if (r > 5)
 {
-printf("last digit of %d is %d is greater than 5\n", n, a);
+printf("last digit of %d is %d is greater than 5\n", n, r);
 }
 else if (r == -1)
 {
