@@ -5,7 +5,7 @@
  * main - entry point
  * Description: prints if a number is zero, negative or positive
  * Return: 0
- * */
+ */
 int main(void)
 {
 
@@ -27,7 +27,7 @@ printf("Last digit of %d is %d and is 0", n, r);
 }
 else
 {
- printf("Last digit of %d is %d and is less than 6 and not 0\n", n, r);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, r);
 }
- return (0);
+return (0);
 }
