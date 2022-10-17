@@ -12,7 +12,7 @@ int letters1;
  
 for (letters1 = 0; letters1 <= 10; letters1++)
 {
-putchar((letters1 % 10) + '0')
+putchar((letters1 % 10) + '0');
 for (letters = 'a'; letters <= 'f'; letters++)
 {
 putchar(letters);
