@@ -13,6 +13,6 @@ for (letters = 0; letters < 10; letters++)
 {
 putchar( (letters % 10) + '0');
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
