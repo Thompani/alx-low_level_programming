@@ -11,8 +11,8 @@ int letters;
 
 for (letters = 0; letters < 10; letters++)
 {
-  putchar( (letters % 10) + '0');
+putchar( (letters % 10) + '0');
 }
-printf("\n");
+putchar("\n");
 return (0);
 }
