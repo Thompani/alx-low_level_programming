@@ -11,7 +11,8 @@ int letters;
 
 for (letters = 0; letters < 10; letters++)
 {
-printf("%d\n", letters);
+printf("%d", letters);
 }
+putchar("\n");
 return (0);
 }
