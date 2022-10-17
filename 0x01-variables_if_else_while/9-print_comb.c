@@ -13,7 +13,7 @@ for (letters = 0; letters < 10; letters++)
 {
 putchar((letters % 10) + '0');
 putchar(',');
-putchar(' ') 
+putchar(' '); 
 }
 putchar('\n');
 return (0);
