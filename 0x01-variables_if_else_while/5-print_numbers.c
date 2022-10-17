@@ -13,6 +13,6 @@ for (letters = 0; letters < 10; letters++)
 {
 printf("%d", letters);
 }
-putchar("\n");
+printf(" ");
 return (0);
 }
