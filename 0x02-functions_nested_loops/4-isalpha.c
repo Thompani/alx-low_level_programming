@@ -3,7 +3,7 @@
 /**
  * _isalpha - entry point
  * Description: Write a function that prints the alphabet, in lowercase.
- * @C: starting point
+ *@c: the letter to be tested
  *Return: true value
  */
 int _isalpha(int c)
