@@ -1,13 +1,22 @@
 #include "main.h"
-
 /**
  * main - entry point
- * Description: A program that displays the 9 times table.
- * Return: last digit number
+ * Description: this  prints _putchar, followed by a new line
+ * Return: 0
  */
-int main()
+int main(void)
+{
+char ch[8] = "_putchar";
+
+int p = 0;
+
+while (p < 8)
 {
 
-_putchar('_putchar');
+_putchar(ch[p]);
+p++;
+}
+_putchar('\n');
+
 return (0);
 }
