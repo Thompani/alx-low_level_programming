@@ -5,12 +5,12 @@
  * Description: A program that displays the 9 times table.
  * Return: void
  */
-void times_table(void)  
+void times_table(void)
 {
 int p, j, k;
- 
+
 for (j = 0; j <= 9; j++)
-{  
+{
 for (p = 0; p <= 9; p++)
 {
 k = p * j;
