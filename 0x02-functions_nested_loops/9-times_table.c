@@ -1,5 +1,4 @@
-
-#INCLUDE "MAIN.h"
+#include "main.h"
 
 /**
  * times_table - entry point
