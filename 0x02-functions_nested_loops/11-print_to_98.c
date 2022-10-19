@@ -1,19 +1,26 @@
-#include <stdio.h>
+#include "main.h"
+# include <stdio.h>
 /**
- * main - entry point
- * Description: prints lowercase of letters of the alphabet
- * except q and e
- * Return: 0
- */
-int main(void)
+* print_to_98 - entry point
+* @n: the integer to start with
+* Description: A program that displays numbers 0 to 98 times table.
+* Return: void
+*/
+void print_to_98(int n)
 {
-	char alphabets;
-
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	if (n < 98)
 	{
-		if (alphabets != 'e' && alphabets != 'q')
-			putchar(alphabets);
+		for (; n < 98; n++)
+		{
+		printf("%d, ", n);
+		}
 	}
-		putchar('\n');
-		return (0);
+	if (n > 98)
+	{
+		for (; n > 98; n--)
+		{
+		printf("%d, ", n);
+		}
+	}
+	printf("%d\n", n);
 }
