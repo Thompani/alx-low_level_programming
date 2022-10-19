@@ -9,16 +9,18 @@ void print_times_table(int n)
 {
 	int p, j, k;
 
+	if ( n <= 15 || n < 0)
+		return;
 	for (p = 0; p <= n; p++)
 	{
 		for (j = 0; p <= n; j++)
 		{
 			k = p * j;
-			if (p == 0)
+			if (j == 0)
 			{
 			_putchar(k + '0');
 			}
-			else if (p <= 9)
+			else if (k <= 9)
 			{
 				_putchar(',');
 				_putchar(' ');
