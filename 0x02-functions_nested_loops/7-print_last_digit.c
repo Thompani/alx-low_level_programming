@@ -16,7 +16,7 @@ p = c % 10;
 if (p < 10)
 p = -p;
 
-_putchar(p + '0');
+_putchar(p % 10 + '0');
 
-return (p);
+return (p % 10);
 }
