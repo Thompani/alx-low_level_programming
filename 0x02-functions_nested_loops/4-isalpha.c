@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - entry point
+ * _isalpha - entry point
  * Description: Write a function that prints the alphabet, in lowercase.
  *Return: true value
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 
 if (c == 'c' || c == 'C')
