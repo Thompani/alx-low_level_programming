@@ -1,38 +1,26 @@
 #include "main.h"
 /**
-* times_table - entry point
-* Description: A program that displays the 9 times table.
+* jack_bauer - entry point
+* Description: A program that displays the 24 hours time.
 * Return: void
 */
-void times_table(void)
+void jack_bauer(void)
 {
-	int p, j, k;
+	int p, j = 0;
 
-	for (j = 0; j <= 9; j++)
+	while (j  < 24)
 	{
-		for (p = 0; p <= 9; p++)
+		p = 0;
+		while (p < 60)
 		{
-			k = p * j;
-			if (p == 0)
-			{
-			_putchar(k + '0');
-			}
-			else if (k <= 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(k + '0');
-		}
-			else if (k >= 10)
-			{
-				_putchar(',');
-				_putchar(' ');
-		_putchar(k / 10 + '0');
-		_putchar(k % 10 + '0');
+			_putchar(j / 10 + '0');
+			_putchar(j % 10 + '0');
+			_putchar(':');
+		_putchar(p / 10 + '0');
+		_putchar(p % 10 + '0');
+		_putchar('\n');
+			p++;
 	}
-		}
-
-	_putchar('\n');
-}
+		j++;
+	}
 }
