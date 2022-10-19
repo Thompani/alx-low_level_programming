@@ -14,7 +14,7 @@ int p;
 p = c % 10;
 if (c < 0)
 c = -c;
-if (p < 10)
+if (p < 0)
 p = -p;
 _putchar(p % 10 + '0');
 return (p % 10);
