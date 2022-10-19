@@ -11,6 +11,7 @@ char a;
 for (a = 'a'; a <= 'z'; a++)
 {
 for (a = 0; a <= 10; a++)
+{
 _putchar(a);
 }
 }
