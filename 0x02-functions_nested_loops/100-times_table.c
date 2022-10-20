@@ -36,7 +36,7 @@ _putchar(k + '0');
 }
 else
 _putchar(k + '0');
-if (j !=n)
+if (j != n)
 {
 _putchar(',');
 _putchar(' ');
