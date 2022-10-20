@@ -15,9 +15,9 @@ int main(void)
 	while (c < 1024)
 	{
 		if (c % 3 == 0)
-			total += i;
+			total += c;
 		else if (c % 5 == 0)
-			total += i;
+			total += c;
 
 		c++;
 	}
